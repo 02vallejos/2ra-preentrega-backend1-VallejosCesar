@@ -1,0 +1,25 @@
+<h1>Pagina para actulizar prodcutso en tiempo real</h1>
+
+<div id="productsContainer">
+</div>
+
+<h3>Formulario para agregar productos</h3>
+
+<form action="">
+    <input type="text" id="title" placeholder="Titulo">
+    <input type="text" id="description" placeholder="Descriptcion">
+    <input type="text" id="code" placeholder="Codigo">
+    <input type="number" id="price" placeholder="Precio">
+    <input type="text" id="stock" placeholder="Stock">
+    <input type="text" id="category" placeholder="Categoria">
+    <input type="text" id="thumbnail" placeholder="Imagen">,
+    <select id="status">
+        <option value="true"> Activo </option>
+        <option value="false"> Inactivo </option>
+    </select>
+    <button type="button" id="btnEnviar"> Enviar </button>
+</form>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/main.js"></script>
